@@ -1,20 +1,20 @@
-# Node JS Starter Template with sequelize ORM
+# Node JS Starter Template with Prisma ORM
 
-A starter template for any Enterprise Applications, Rest APIs or Microservices with Node.js, Express and Sequelize ORM for MySQL, PostgreSQL or others.
+A starter template for any Enterprise Applications, Rest APIs or Microservices with Node.js, Express and Prisma ORM for MySQL, PostgreSQL or others.
 This project offers production ready environment with all necessary supports for validation, unit testing, socket, redis and many more.
 ## Manual Installation
 
 Clone the repo:
 
 ```bash
-git clone https://github.com/ItzSamdam/Node-Js-Starter-Template.git
-cd Node-Js-Starter-Template
+git clone https://github.com/ItzSamdam/nodejs-prisma-mysql-boilerplate.git
+cd nodejs-prisma-mysql-boilerplate
 ```
 
 Install the dependencies:
 
 ```bash
-yarn install
+npm install
 ```
 
 Set the environment variables:
@@ -36,7 +36,7 @@ yarn dev
 Running in production:
 
 ```bash
-yarn start
+npm run start
 ```
 
 Testing:
@@ -55,9 +55,7 @@ src\
  |--config\         # Environment variables and configuration related things
  |--controllers\    # Route controllers (controller layer)
  |--daom\           # Data Access Object for models
- |--database\       # Migrations and Seed files
  |--middlewares\    # Provide Security Layer in app
- |--models\         # Sequelize models (data layer)
  |--routes\         # Routes
  |--services\       # Business logic (service layer)
  |--utilities\      # Utilities classes and functions

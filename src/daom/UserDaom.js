@@ -1,7 +1,7 @@
 const SuperDaom = require('./SuperDaom');
-const models = require('../models');
+const PrismaClient = require('@prisma/client');
 
-const User = models.user;
+const User = new PrismaCLient().user;
 
 class UserDaom extends SuperDaom {
     constructor() {
